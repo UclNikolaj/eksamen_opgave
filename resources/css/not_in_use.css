@@ -1,0 +1,118 @@
+/*main nav*/
+
+.navbar {
+    padding: 0 24px;
+    background-color: #002d33;
+    height: 70px;
+    z-index: 90;
+  }
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+/* .main {
+    padding-left: 24px;
+    padding-right: 24px;
+    flex: 1 1 0%;
+    overflow: auto;
+    margin-top: 70px;
+    position: relative;
+}
+
+.main-sub {
+    margin-top: 124px;
+}
+
+.sidebar {
+    min-width: 440px;
+    max-width: 440px;
+    direction: ltr;
+    background: #fff;
+    padding: 20px;
+    flex: 1;
+    overflow: auto;
+    margin-top: 70px;
+}
+
+.sidebar {
+    direction: ltr;
+}
+
+.custom-checkbox-container {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: inline;
+}
+
+.tree_spacer {
+    width: 20px;
+    height: 100%;
+    display: inline-block;
+}
+
+.custom-checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: var(--background-color);
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+custom-checkbox-container {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: inline;
+}
+
+.tree_active {
+    display: block;
+}
+
+.tree_nested {
+    display: none;
+}
+
+.filter-button-wrapper .btn {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    right: 15px;
+    z-index: 999;
+    background: var(--new-blue);
+    color: #fff;
+}
+
+.wrapper {
+    height: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    overflow: hidden;
+    flex: 1 1 0%;
+} */

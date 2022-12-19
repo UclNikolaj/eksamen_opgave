@@ -1,0 +1,8 @@
+.login_box{
+    width: 500px;
+    padding: 40px;
+    background-color: white;
+}
+#identity_provider{
+    font-size: 17px;
+}

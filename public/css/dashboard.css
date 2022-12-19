@@ -1,0 +1,76 @@
+.chart_bar {
+    display: flex;
+}
+
+.chart_bar .bar,
+.chart_bar .bar_yn {
+    padding: 3px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.labels {
+    display: flex;
+    margin: 24px auto 0px auto;
+    width: 100%;
+}
+
+.label_item {
+    margin: 0 auto;
+    font-size: 10px;
+    display: flex;
+}
+
+.label_color {
+    margin-right: 4px;
+    width: 15px;
+    height: 15px;
+}
+
+.label_text {
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+.showExtraRow {
+    cursor: pointer;
+}
+
+tr.selected,
+tr.parent:hover,
+tr.secondRow {
+    background-color: whitesmoke;
+}
+
+tr.secondRow:hover {
+    background-color: rgba(211, 211, 211, 0.5);
+}
+
+thead tr th,
+tbody tr.parent td,
+table tbody tr.secondRow td,
+.table_total td {
+    padding: 11px 15px !important;
+}
+
+tr.parent td:last-of-type {
+    cursor: pointer;
+}
+
+i {
+    transition: transform 0.2s linear;
+}
+
+i.open {
+    transform: rotate(90deg);
+    transition: transform 0.2s linear;
+    color: var(--dark-blue);
+}
+
+.selected {
+    font-family: 'proxima-bold';
+}
+.piechart #apexchartsee90r9ru{
+    margin: 0 auto;
+    text-align: center;
+}

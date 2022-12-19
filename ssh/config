@@ -1,0 +1,4 @@
+Host eksamen
+HostName 167.172.39.192
+User root
+IdentityFile ~/.ssh/eksamen

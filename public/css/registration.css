@@ -1,0 +1,173 @@
+/* styling the education, topic, description texts, and some small fixes for custom checkmarks, only in this file */
+.label_title sup{
+    margin-left: 0px;
+    font-size: 8px;
+    font-weight: bold;
+    background-color: var(--new-blue);
+    padding: 2px 6px;
+      padding-top: 2px;
+      padding-right: 6px;
+      padding-bottom: 2px;
+      padding-left: 6px;
+    text-align: center;
+    color: white;
+}
+
+#hidden_educations, #hidden_topics{
+    display: none;
+}
+.regis_content{
+    width: 50%;
+}
+.search_box span, .search_box input, input[type=text]{
+    height: 30px;
+    border-radius: 0px;
+}
+.search_box span{
+    width: 50px;
+}
+.search_box span i{
+    font-size: 15px;
+}
+#hidden_topics, #hidden_educations{
+    padding: 20px;
+    background-color: whitesmoke;
+}
+.error_msg{
+    font-family: 'proxima-medium';
+}
+.sub_section_title{
+    font-size: 16px;
+    font-family: 'proxima-medium', sans-serif;
+    color: var(--dark-blue);
+}
+/* CHOOSE OTHER INFORMATION */
+/* COL-1: inquiry type, group or person, a current student */
+.square_list_container label i, .student_list_container label i {
+    color: var(--new-blue-dark);
+}
+.square_list_container label p, .student_list_container label p {
+    color: var(--dark-blue);
+}
+
+.square_list_container .custom_control_label{
+    background-color: var(--new-blue);
+    min-width: 120px;
+    max-width: 120px;
+    font-family: 'proxima-medium', sans-serif;
+    font-size: 15px;
+    transition: .2s;
+    -moz-transition: .2s;
+    cursor: pointer;
+}
+
+.square_list_container input[type=radio], .student_list_container input[type=radio]{
+    display: none;
+}
+
+.custom_control_input:checked + .custom_control_label {
+    background-color: var(--light-blue) !important;
+    box-shadow: 0px 2px 12px #00000034;
+  }
+.custom_control_input:checked + .custom_control_label i{
+    color: white;
+}
+.custom_control_input:checked + .custom_control_label p {
+    color: white;
+    font-family: 'proxima-medium';
+}
+
+/* COL-2: choose month, campus and conversation duration */
+.input-group:not(.search_box) {
+    height: 48px;
+}
+.input-group-text {
+    border-radius: 0px;
+    width: 60px;
+    background-color: var(--new-blue);
+}
+.input-group-text i {
+    font-size: 24px;
+    color: var(--new-blue-dark);
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+}
+.input-group:focus-within select {
+    border: 2px solid var(--light-blue);
+    box-shadow: none;
+}
+.input-group:focus-within .input-group-text {
+    background-color: var(--light-blue);
+    border: 2px solid var(--light-blue);
+    color: white !important;
+}
+.input-group:focus-within i{
+    color: white;
+}
+.btn-reset{
+    color: var(--red);
+}
+.btn-reset:hover{
+    color: var(--red);
+    border-bottom: 1px solid var(--red);
+}
+.success_flash{
+    background-color: rgba(25, 169, 54, 0.9);
+    width: 50%;
+    padding: 2px 0px 4px 0px;
+    color: white;
+    font-size: 20px;
+    font-family: 'proxima-bold';
+    z-index: 9999999999;
+    display: none;
+    transition: .4s;
+}
+
+
+/* EXCLUSIVE STYLING FOR THE STUDENT REGISTRATION PAGE */
+.student_list_container .custom_control_label{
+    background-color: var(--new-blue);
+    min-width: 19%; 
+    max-width: 19%;
+    transition: .2s;
+    margin: 4px !important;
+    -moz-transition: .2s;
+    cursor: pointer;
+    padding: 24px 0px;
+} 
+.student_list_container label i {
+    font-size: 45px;
+}
+.student_list_container label p {
+    font-size: 17px;
+    margin-top: 10px;
+}
+.student_regis_label_title{
+    font-size: 22px;
+    font-family: 'proxima-medium';
+    color: var(--dark-blue);
+}
+.student_submit_button{
+    width: 150px;
+    padding: 10px 0px;
+    font-size: 17px;
+}
+#education_select_box option{
+    height: 40px;
+}
+.student_regis_content section{
+    padding: 30px 0px;
+}
+
+/* specific queries for this file */
+@media only screen and (max-width: 1500px) {
+    .regis_content {
+      width: 75%;
+    }
+  }
+@media only screen and (max-width: 1180px) {
+    .regis_content {
+      width: 100%;
+    }
+  }
